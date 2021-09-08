@@ -20,6 +20,13 @@ hr {
     margin: 2rem;
 }
 
+/*****article****/
+article{
+    display: block;
+    
+}
+
+
 
 
 /** container **/
@@ -29,7 +36,7 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -66,6 +73,14 @@ hr {
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.showcase-list {
+    /* padding: 2rem; */
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
 }
 
 /*** navigation ***/
@@ -117,6 +132,11 @@ hr {
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
+
+.showcase-blog {
+    padding-bottom: 6rem;
+}
+
 
 /*** Section ****/
 
