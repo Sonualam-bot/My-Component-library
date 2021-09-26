@@ -3,9 +3,10 @@
 
 
 :root {
-    --primary-color: #6464BB;
-    --dark-gray: #6B7280;
-    --off-white: #F3F4F6;
+    --primary-color: #64b1bb;
+    --black: #050607;
+    --off-white: #c9981202;
+    
 }
 body{
     font-family: 'Montserrat', 
@@ -15,6 +16,9 @@ body{
     max-width: 95%;
    width: 100%;
    display: block;
+
+
+   
 }
 
 hr {
@@ -136,7 +140,7 @@ nav{
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-   color: var(--dark-gray);
+   color: var(--black);
 }
 
 .hero .hero-heading .heading-inverted {
