@@ -192,3 +192,20 @@ footer {
 .section div p{
     padding-left: 10px;
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100vh;
+  }
+  
+  td, th {
+    border: 1px solid teal;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: teal;
+  }
+  

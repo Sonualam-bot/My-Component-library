@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tyes of CSS</title>
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div>
+        <div class="nav-brand">
+          <a class="link" href="/"> I AM DEVELOPER</a>
+        </div>
+        <ul class="list-non-bullet nav-pills">
+          <li class="list-item-inline"><a class="link" href="/">Home</a></li>
+          <li class="list-item-inline">
+            <a class="link" href="/projects.html">Projects</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link link-active" href="/blogs.html">Blogs </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="hero showcase-blog">
+      <h1 class="hero-heading">
+        <img src="https://img.icons8.com/ios/50/000000/css3.png" />
+        <span class="heading-inverted"> CSS </span>
+        <span class="hero-heading"> Types </span>
+      </h1>
+    </header>
+
+    <section class="section off">
+      <h3>Types Of CSS</h3>
+      <div class="container container-center">
+        <h1>Inline CSS</h1>
+
+        <p>
+          Inline CSS: Inline CSS contains the CSS property in the body section
+          attached with element is known as inline CSS. This kind of style is
+          specified within an HTML tag using the style attribute.
+        </p>
+        <img
+          src="./images/inline.png"
+          alt="Inline Examples"
+          style="size: 2rem"
+        />
+        <h1>Internal CSS</h1>
+
+        <p>
+          Internal or Embedded CSS: This can be used when a single HTML document
+          must be styled uniquely. The CSS rule set should be within the HTML
+          file in the head section i.e the CSS is embedded within the HTML file.
+        </p>
+        <img
+          src="./images/internal.png"
+          alt="Inline Examples"
+          style="size: 2rem"
+        />
+        <h1>External CSS</h1>
+
+        <p>
+          External CSS: External CSS contains separate CSS file which contains
+          only style property with the help of tag attributes (For example
+          class, id, heading, … etc). CSS property written in a separate file
+          with .css extension and should be linked to the HTML document using
+          link tag. This means that for each element, style can be set only once
+          and that will be applied across web pages.
+        </p>
+        <img
+          src="./images/External.png"
+          alt="Inline Examples"
+          style="size: 2rem"
+        />
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-header">Social Media Presence</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/sonualam-bot">github </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com">twitter </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">instagram </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
